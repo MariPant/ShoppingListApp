@@ -28,7 +28,6 @@ Built entirely with **Jetpack Compose**, the app demonstrates modern Android dev
   <img src="ShoppingList.gif" width="300"/>
 </p>
 
-
 ---
 
 ## 🚀 Features
@@ -56,23 +55,6 @@ Built entirely with **Jetpack Compose**, the app demonstrates modern Android dev
 
 ---
 
-## 📐 Architecture
-
-The app follows a clean composable-based structure:
-
-com.app.shoppinglistapp
-│
-├── composables/
-│ ├── ShoppingListScreen.kt # Main screen & state logic
-│ ├── ShoppingListRows.kt # List rendering & swipe logic
-│ ├── ShoppingListControls.kt # TopBar, Input field, FAB
-│
-├── data/
-│ └── ShoppingItem.kt # Data model
-│
-└── theme/
-└── ShoppingListAppTheme.kt # Material 3 theme configuration
-
 ### Design Principles
 
 - Separation of UI blocks into reusable composables
@@ -89,16 +71,22 @@ com.app.shoppinglistapp
 ```bash
 git clone https://github.com/yourusername/shopping-list-app.git
 
+---
+
 ## Open in Android Studio
 
 - Android Studio Hedgehog or newer recommended
 - Run on emulator or physical device
+
+---
 
 ## 📱 Requirements
 
 - Android 8.0 (API 26+)
 - Kotlin 1.9+
 - Gradle 8+
+
+---
 
 ## 📄 License
 
