@@ -70,7 +70,7 @@ Built entirely with **Jetpack Compose**, the app demonstrates modern Android dev
 
 ```bash
 git clone https://github.com/yourusername/shopping-list-app.git
-
+```
 ---
 
 ## Open in Android Studio
